@@ -1,2 +1,4 @@
 print("levi gomes")
-print("ola mundo")
+
+nome = input("digite o seu nome")
+dia = input("digite o dia do seu nascimento")
