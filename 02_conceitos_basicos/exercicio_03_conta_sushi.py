@@ -10,3 +10,7 @@ Crie um programa que:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+total_consumido=float(input("consumo do restaurante"))
+servico_garcom=total_consumido * 0.10
+total_pagar = total_consumido + servico_garcom
+print(f"o total a ser pago é R$ {total_pagar:.2f}")
