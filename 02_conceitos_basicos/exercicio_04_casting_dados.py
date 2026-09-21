@@ -11,8 +11,9 @@ Imprima a idade calculada com uma mensagem personalizada.
 
 # TODO: Desenvolva o algoritmo abaixo:
 pessoa_ano_nascimento=input("digite seu ano de nascimento")
-pessoa_ano_nascimento=int(pessoa_ano_nascimento)
-soma=2026
+ano_nascimento=int((pessoa_ano_nascimento))
+soma=((2026 - ano_nascimento))
+print("sua idade em 2026 sera", soma)
 
 
 
