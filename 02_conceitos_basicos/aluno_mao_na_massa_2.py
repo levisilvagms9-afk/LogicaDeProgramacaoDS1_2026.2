@@ -6,4 +6,4 @@
 valor = float(input("digite o valor da conta"))
 numero = int(input("digite o numero de pessoas"))
 valor_dividido = valor / numero
-print(f"o9 valor que vai ficar para cada pessoa é {valor_dividido: .2f}")
+print(f"o valor que vai ficar para cada pessoa é {valor_dividido: .2f}")
