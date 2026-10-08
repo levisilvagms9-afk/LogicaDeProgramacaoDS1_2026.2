@@ -8,4 +8,16 @@ Conte quantos foram estritamente positivos (> 0) e calcule a média aritmética 
 Imprima a quantidade de positivos e a média formatada com 1 casa decimal.
 """
 
-# TODO: Desenvolva o algoritmo abaixo:
+# TODO: Desenvolva o algoritmo abaixo
+lista = []
+
+for n in range(6):
+    numeros = int(input("Digite os numeros: "))
+
+    if numeros > 0:
+        lista.append(numeros)
+
+media = sum(lista) / len(lista)
+
+print(len(lista))
+print(f"{media:.1f}")
